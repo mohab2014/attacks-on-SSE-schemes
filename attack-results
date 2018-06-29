@@ -4,7 +4,7 @@ Example:
 =======
 The following example taken from the Adult's solutions shows a possible solution corresponding to a column cardinality 2.
 Note that i:j means the ith query has a result size that is equal to j. Note that the summation of all the result sizes 
-should equal the number of records. So, 7841+ 24720 = 32561, the number of records in the Adult dataset,
+should equal the number of records. So, 7841 + 24720 = 32561, the number of records in the Adult dataset,
  
 Solution # 1, card = 2, confirmations = 2
 90:7841;272:24720;
