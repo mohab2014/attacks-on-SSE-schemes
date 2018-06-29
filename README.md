@@ -9,11 +9,12 @@ However, some SSE schemes have been recently proposed in order to protect relati
 We propose here an inference attack that enables a passive adversary with only basic knowledge about the meta-data information of the target relational database to recover the attribute names of some observed queries. This violates query privacy since the attribute name of a query is secret.
 
 
-Our attack is implemented using three approaches to recover the attribute names of observed queries:
+Our attack is implemented using several approaches to recover the attribute names of observed queries:
 
 1. Subset sum approach.
 2. Independent set approach.
 3. Eficient heuristic approach that performs intersection between the search results of observed queries.
+4. Combining the subset sum approach with the heuristic approach.
 
 For more information, refer to the paper [1]. Our attacks are validated on three real world datasets: Adult [2], Bank [3] and the Census [4] datasets.
 
