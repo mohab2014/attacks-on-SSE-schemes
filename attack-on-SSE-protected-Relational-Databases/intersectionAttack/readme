@@ -1,0 +1,12 @@
+
+compile:
+
+g++ -o intAttack intersectionAttack.cpp -O3 -std=c++11
+
+
+run:
+Adult:  ./intAttack 1 498 498 observed1-498-498.txt 32561 resultAdult.txt adult-attributes.txt 
+Bank:    ./intAttack 1 3720 3720 observed1-3720-3720-special 4521 resultBank.txt bank-attributes.txt
+Census: ./intAttack 1 4001 4001 observed100-4001-4001.txt 299285 resultCensus.txt fullcensus-attributes.txt
+
+

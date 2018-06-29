@@ -1,0 +1,10 @@
+
+1. compile:
+
+g++ -o heuristicAttack heuristicPlusSubsetSumAttack.cpp-O3 -std=c++11
+
+2. run: For the bank and the Census, it might take slighly more than 1 hour to finish.
+Adult:  ./heuristicAttack 1 498 498 observed1-498-498.txt 32561 resultAdult.txt adult-attributes.txt 
+Bank:    ./heuristicAttack 1 3720 3720 observed1-3720-3720-special 4521 resultBank.txt bank-attributes.txt
+Census: ./ heuristicAttack 1 4001 4001 observed100-4001-4001.txt 299285 resultCensus.txt fullcensus-attributes.txt
+

@@ -1,0 +1,8 @@
+
+
+
+compile: g++ -o subSetSumAttack subSetSumAttack.cpp -O3
+
+
+Example on the Adult dataset
+run:  time ./subSetSumAttack observed1-498-498.txt 32561 498 adult-attributes.txt  > resultAdult.txt

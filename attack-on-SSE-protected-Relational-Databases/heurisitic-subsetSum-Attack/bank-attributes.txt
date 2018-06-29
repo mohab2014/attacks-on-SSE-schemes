@@ -1,0 +1,17 @@
+age:67
+job:12
+marital:3
+education:4
+default:2
+balance:2353
+housing:2
+loan:2
+contact:3
+day:31
+month:12
+duration:875
+campaign: 32 
+pdays: 292
+previous: 24 
+poutcome: 4
+y:2
