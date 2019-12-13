@@ -1,4 +1,4 @@
-# attacks-on-SSE-schemes
+# Attacks On Searchable Symmetric Encryption (SSE) Schemes
 Practical Attacks on Relational Databases Protected via Searchable Encryption
 
 
